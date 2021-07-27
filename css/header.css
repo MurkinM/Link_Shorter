@@ -20,3 +20,24 @@ header {
     display: flex;
     align-items: center;
 }
+
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+    margin-left: 85%;
+    padding: 10px;
+
+    width: 100%;
+
+    font-family: 'Quando', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
