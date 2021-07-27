@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Quando&display=swap');
+
+
+.LS:hover {
+    cursor: default;
+}
+
+.main_form {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     
+    
+    position: absolute;
+    width: 490px;
+    height: 390px;
+    left: 475px;
+    top: 172px;
+    
+    background: #f8f8f8;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    margin-left: 15px;
+    margin-right: 26px;
+    padding: 5px 10px 10px;
+}
+.email_input {
+    width: 423px;
+    height: 44px;
+
+    border: 1px solid rgba(0, 0, 0, 0.64);
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    font-size: 18px;
+}
+.email_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: black;
+}
+.email_text:hover {
+    cursor: default;
+}
+
+
+.password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    margin-left: 15px;
+    margin-right: 26px;
+    padding: 5px 10px 10px;
+}
+.password_input {
+    width: 423px;
+    height: 44px;
+
+    border: 1px solid rgba(0, 0, 0, 0.64);
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    font-size: 18px;
+}
+.password_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: black;
+}
+.password_text:hover {
+    cursor: default;
+}
+
+
+.main_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    margin-left: 126px;
+    margin-top: 20px;
+    width: 217px;
+    height: 42px;
+
+    background: #7FC3F5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+.main_button:hover {
+    cursor: pointer;
+    background-color: #477596;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 5px 10px 10px 5px;
+
+    width: 449px;
+    height: 37px;
+}
+.main_link {
+    padding: 5px 10px 10px;
+    
+    color: rgb(74, 74, 207);
+}
+.main_link:hover {
+    cursor: pointer;
+    color: darkblue;
+}
+
+
+.girl_icon {
+    width: 64.39px;
+    height: 139.01px;
+
+    position: absolute;
+    left: 400px;
+    bottom: 330px   ;
+}
+
+
+.restore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 20px;
+
+    width: 449px;
+    height: 37px;
+}
+
+
+
+.restore_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-left: 15px;
+    padding: 5px 19px 10px 10px;
+
+    width: 422px;
+    height: 49px;   
+}
